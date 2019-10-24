@@ -1,7 +1,3 @@
-# bootstrap
-Clone Newsweek page using bootstrap
-
-
 # Bootstrap
 
 Bootstrap-based clone page 
