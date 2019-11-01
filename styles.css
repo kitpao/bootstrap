@@ -114,7 +114,7 @@ body {
     height: 5.9375rem;
   }
 
-  .navbar {
+  .navbar, main {
     max-width: 82rem;
   }
 
@@ -147,10 +147,36 @@ body {
 
 /*
 =========================================================================
-                                    NAVBAR Section
+                                    Main Section
 =========================================================================
+-----Layout
 */
 
 main {
-  height: 100vh;
+  heigdht: 100vh;
+}
+
+.debug {
+  border: blue 1px solid;
+}
+
+@media screen and (min-width: 768px) {
+  .center_bar {
+    margin-left: -5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .left_sidebar {
+    padding-right: 4rem;
+  }
+
+  .center_bar {
+    margin-left: -3rem;
+  }
+
+  .right_sidebar {
+    margin-left: -4.5rem;
+    padding-left: 4.5rem;
+  }
 }
