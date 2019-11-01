@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .jumbotron {
@@ -51,7 +51,7 @@ body {
 }
 
 .form_inside {
-  height: 1.35rem
+  height: 1.35rem;
 }
 
 #white_part {
@@ -60,7 +60,7 @@ body {
 }
 
 #white_part a {
-  color: #000; /*had to put manual colors since bootstrap doesn't allow to change color on hover*/
+  color: #000; /* had to put manual colors since bootstrap doesn't allow to change color on hover */
   font-size: 1.32rem;
   line-height: 1.32rem;
 }
@@ -88,13 +88,13 @@ body {
 }
 
 .navbar-nav li.right_icon {
-  line-height: .5rem;
+  line-height: 0.5rem;
 }
 
 .diagonal {
   width: 1rem;
   height: 1rem;
-  background: linear-gradient(to bottom left, #f72210 50%, #fff 51%)
+  background: linear-gradient(to bottom left, #f72210 50%, #fff 51%);
 }
 
 .red {
