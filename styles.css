@@ -114,7 +114,8 @@ body {
     height: 5.9375rem;
   }
 
-  .navbar, main {
+  .navbar,
+  main {
     max-width: 82rem;
   }
 
@@ -151,10 +152,6 @@ body {
 =========================================================================
 -----Layout
 */
-
-main {
-  heigdht: 100vh;
-}
 
 .debug {
   border: blue 1px solid;
