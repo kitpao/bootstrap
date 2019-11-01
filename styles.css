@@ -1,3 +1,9 @@
+/*
+=========================================================================
+                                    NAVBAR Section
+=========================================================================
+*/
+
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -116,9 +122,14 @@ body {
     width: 5rem;
   }
 
+  .navbar-nav {
+    flex: 1;
+  }
+
   .navbar-nav li {
     width: auto;
     border-right: #d3d3d3 1px solid;
+    flex-grow: 1;
   }
 
   #white_part {
@@ -133,6 +144,12 @@ body {
     background-color: #fff;
   }
 }
+
+/*
+=========================================================================
+                                    NAVBAR Section
+=========================================================================
+*/
 
 main {
   height: 100vh;
