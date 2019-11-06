@@ -7818,6 +7818,16 @@ body, .jumbotron {
 body {
   height: 150vh; }
 
+.image_link {
+  position: relative; }
+
+.overlay {
+  position: absolute;
+  bottom: 0; }
+
+.bg_transparent {
+  background-color: rgba(255, 255, 255, 0.9); }
+
 .card-title {
   font-weight: 600;
   font-size: 1.4rem;
