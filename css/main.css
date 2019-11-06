@@ -7833,12 +7833,23 @@ body {
   font-size: 1.4rem;
   letter-spacing: -0.03rem; }
 
+.summary_article {
+  overflow: hidden; }
+  .summary_article img {
+    height: 6rem; }
+  .summary_article .card-title {
+    font-size: 1rem;
+    letter-spacing: -0.03rem; }
+
 .card-text {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 0.8125rem;
   line-height: 1.1rem; }
 
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .summary_article img {
+    height: 11rem; } }
 @media screen and (min-width: 768px) {
   .center_bar {
     margin-left: -5.5rem; }
