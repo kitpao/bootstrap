@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
   </head>
 
@@ -25,8 +26,8 @@
                 </g>
               </svg>
             </a>
-            <a class="text-white ml-auto mr-3 display-5" href="https://subscription.newsweek.com/auth">SIGN IN</a>
-            <a class="d-flex align-items-center height_var bg-white text-danger px-2 mx-2 py-1 display-5" href="https://subscription.newsweek.com/subscribe?utm_source=NWwebsite&utm_medium=top-nav&utm_campaign=subscribe-button#12weeks">SUBSCRIBE <span class="right_icon ml-3 pb-2">&rsaquo;</span></a>
+            <a class="text-white ml-auto mr-3 display-5 no_deco" href="https://subscription.newsweek.com/auth">SIGN IN</a>
+            <a class="d-flex align-items-center height_var bg-white text-danger px-2 mx-2 py-1 display-5 no_deco" href="https://subscription.newsweek.com/subscribe?utm_source=NWwebsite&utm_medium=top-nav&utm_campaign=subscribe-button#12weeks">SUBSCRIBE <span class="right_icon ml-3 pb-2">&rsaquo;</span></a>
             <div>
               <button class="navbar-toggler" data-toggle="collapse" data-target="#white_part">
                 <span class="fas fa-bars px-2"></span>
@@ -86,7 +87,7 @@
 
       <main class="container-fluid bg-white mt-3 mt-lg-5 pt-3 pt-lg-5">
         <div class="row mt-2">
-          <div class="center_bar order-md-2 col-12 col-md-7 col-lg-5 pl-md-5">
+          <div class="center_bar order-md-2 col-12 col-md-7 col-lg-5 pl-md-5 d-flex flex-column">
             <div>
               <div class ="text-secondary mb-2">
                 TOP STORY
@@ -102,7 +103,7 @@
                 <p class="card-text">Among nearly a dozen Republican and Democratic senators, the methods by which members say they're preparing for the procedures of a trial range widely.</p>
               </article>
             </div>
-            <div class="list-group list-group-flush">
+            <div class="list-group list-group-flush pb-1 order-md-1">
               <div class ="list-group-item px-0 py-1 border-top-0 text-secondary">
                 MORE STORIES
               </div>
@@ -167,16 +168,21 @@
                 </div>
               </article>
             </div>
-            <div class="culture_section">
-              <div class="culture_Title">
-                <a href="/culture">Culture & Travel</a>
+            <div class="culture_section jumbotron-fluid py-2 mb-3">
+              <div class="pb-1">
+                <a class="px-2 no_deco" href="#"><span class="text-secondary">CULTURE & TRAVEL</span></a>
               </div>
-              <div class="flexCulture">
-                <div class="row">
-                  <div class="itemCulture col-12 col-md-6 debug" style="height: 50px">
-                    <div class="">
-
+              <div class="flex_culture">
+                <div class="row px-3">
+                  <div class="item_culture col-12 col-md-6 mb-2 p-0 pr-md-2">
+                    <img class="all_width" src="https://d.newsweek.com/en/full/1540464/cul-bowie-banner.jpg?w=397&amp;h=265&amp;l=50&amp;t=49&amp;f=dc4814ad2120aa3188c7bc28f8d526bb" alt="CUL_Bowie_Banner" title="CUL_Bowie_Banner">
+                    <div class="card-body py-3 px-2">
+                      <a class ="d-inline-block no_deco" href="#"><h5 class="card-title text-body">The Literary Influences of Superstar Musician David Bowie</h5></a>
+                      <p class="card-text text-muted">Bowie was more than a multi-platinum rock and roller. He was also one of the more literate composers in the business.</p>
+                      <a href="#" class="btn-info no_deco py-1 px-2"><span >Music</span></a>
                     </div>
+
+
                   </div>
                   <div class="itemCulture col-12 col-md-6 debug" style="height: 50px">
                     <div class="">
@@ -184,7 +190,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row px-3">
                   <div class="itemCulture col-12 col-md-6 border" style="height: 50px">
                     <div class="">
 
