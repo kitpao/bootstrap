@@ -7837,7 +7837,7 @@ a.no_deco {
 
 .red_article .card-title, .blue_article .card-title {
   font-weight: 600;
-  font-size: 1.5rem; }
+  font-size: 1.3rem; }
 
 .summary_article {
   overflow: hidden; }
@@ -7872,6 +7872,10 @@ a.no_deco {
 
   .card-text {
     font-size: 0.95rem;
-    line-height: 1.2rem; } }
+    line-height: 1.2rem; }
+
+  .red_article .card-title, .blue_article .card-title {
+    font-weight: 600;
+    font-size: 1.5rem; } }
 
 /*# sourceMappingURL=main.css.map */
