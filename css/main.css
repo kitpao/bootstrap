@@ -7800,8 +7800,24 @@ a.no_deco {
     height: 5.9375rem; }
 
   .navbar,
-  main {
+  .main {
     max-width: 82rem; }
+
+  .main {
+    /*height: 184rem;
+    overflow: scroll;
+    scrollbar-width: none;
+    position: relative;*/ }
+
+  .inner_main {
+    /*height: 180rem;
+    position: relative;*/
+    display: flex; }
+
+  .stick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -128rem; }
 
   .form-inline {
     width: 5rem; }
