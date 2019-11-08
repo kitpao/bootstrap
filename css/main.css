@@ -7712,9 +7712,6 @@ body, .jumbotron-fluid {
 .debug {
   border: blue 1px solid; }
 
-body {
-  height: 150vh; }
-
 .image_link {
   position: relative; }
 
