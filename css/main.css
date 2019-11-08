@@ -7799,8 +7799,7 @@ a.no_deco {
   .red_part {
     height: 5.9375rem; }
 
-  .navbar,
-  main {
+  .navbar, .main {
     max-width: 82rem; }
 
   .form-inline {
@@ -7866,9 +7865,18 @@ a.no_deco {
   .summary_article img {
     height: 11rem; } }
 @media screen and (min-width: 768px) {
+  .stick {
+    position: sticky;
+    top: 1vh; }
+
+  section {
+    height: 1000px; }
+
   .center_bar {
     margin-left: -5.5rem;
-    padding-left: 4rem; }
+    padding-left: 4rem;
+    position: sticky;
+    top: 0; }
 
   .card-text {
     font-size: 0.95rem;
