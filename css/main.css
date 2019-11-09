@@ -7885,7 +7885,7 @@ a.no_deco {
 .opinion .card-text {
   font-family: inherit;
   font-weight: inherit;
-  /*font-size: 0.9rem;*/ }
+  font-size: 0.9rem; }
 
 @media screen and (min-width: 450px) and (max-width: 768px) {
   .summary_article img {
