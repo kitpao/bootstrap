@@ -7725,6 +7725,12 @@ body, .jumbotron-fluid {
 a.no_deco {
   text-decoration: none; }
 
+.blk_to_red {
+  color: black; }
+
+.blk_to_red:hover {
+  color: #f72210; }
+
 /*
 =========================================================================
                                     NAVBAR Section
@@ -7795,6 +7801,11 @@ a.no_deco {
   width: 4.1rem;
   height: 1rem; }
 
+@media screen and (min-width: 768px) {
+  .stick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -130rem; } }
 @media screen and (min-width: 992px) {
   .red_part {
     height: 5.9375rem; }
@@ -7802,17 +7813,6 @@ a.no_deco {
   .navbar,
   .main {
     max-width: 82rem; }
-
-  .main {
-    /*height: 184rem;
-    overflow: scroll;
-    scrollbar-width: none;
-    position: relative;*/ }
-
-  .inner_main {
-    /*height: 180rem;
-    position: relative;*/
-    display: flex; }
 
   .stick {
     position: -webkit-sticky;
@@ -7878,20 +7878,26 @@ a.no_deco {
   background-color: black;
   color: #c2d4d7; }
 
+.opinion .list-group img {
+  height: 4rem; }
+.opinion .card-title {
+  font-size: 1.06rem; }
+.opinion .card-text {
+  font-family: inherit;
+  font-weight: inherit;
+  /*font-size: 0.9rem;*/ }
+
 @media screen and (min-width: 450px) and (max-width: 768px) {
   .summary_article img {
     height: 11rem; } }
 @media screen and (min-width: 768px) {
-  .center_bar {
-    margin-left: -5.5rem;
-    padding-left: 4rem; }
-
   .card-text {
     font-size: 0.95rem;
     line-height: 1.2rem; }
 
   .red_article .card-title, .blue_article .card-title {
     font-weight: 600;
-    font-size: 1.5rem; } }
+    font-size: 1.5rem;
+    line-height: 1.5rem; } }
 
 /*# sourceMappingURL=main.css.map */
