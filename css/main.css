@@ -7878,17 +7878,20 @@ a.no_deco {
   background-color: black;
   color: #c2d4d7; }
 
-.opinion .list-group img {
+.right_lists .list-group img {
   height: 4rem; }
-.opinion .card-title {
+.right_lists .list-group .rectangle {
+  height: 5.5rem; }
+.right_lists .card-title {
   font-size: 1.06rem; }
-.opinion .card-text {
+.right_lists .card-text {
   font-family: inherit;
   font-weight: inherit;
   font-size: 0.9rem; }
 
 @media screen and (min-width: 450px) and (max-width: 768px) {
-  .summary_article img {
+  .summary_article img,
+  .right_lists .list-group .rectangle {
     height: 11rem; } }
 @media screen and (min-width: 768px) {
   .card-text {
