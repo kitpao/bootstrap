@@ -7805,7 +7805,12 @@ a.no_deco {
   .stick {
     position: -webkit-sticky;
     position: sticky;
-    top: -130rem; } }
+    top: -129rem; }
+
+  .stick_right {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -142rem; } }
 @media screen and (min-width: 992px) {
   .red_part {
     height: 5.9375rem; }
