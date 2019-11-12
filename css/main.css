@@ -8082,7 +8082,7 @@ a.no_deco {
   line-height: 1.8rem;
   font-size: 1.15rem; }
 
-.bottom_section .section .card-title {
+.bottom_section .stretch .card-title {
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.4rem; }
@@ -8105,7 +8105,7 @@ a.no_deco {
     .item img {
       object-fit: cover; }
 
-  .bottom_section .section .card-title {
+  .bottom_section .stretch .card-title {
     font-size: 1.25rem;
     line-height: 1.3rem; } }
 @media screen and (min-width: 992px) {
