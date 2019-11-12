@@ -7695,6 +7695,171 @@ a.text-muted:hover, a.text-muted:focus {
     color: inherit;
     border-color: #dee2e6; } }
 /*
+=================================================
+                   RESPONSIVE BORDERS
+=================================================
+*/
+.border-top {
+  border-top: 1px solid #dee2e6 !important; }
+
+.border-right {
+  border-right: 1px solid #dee2e6 !important; }
+
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important; }
+
+.border-left {
+  border-left: 1px solid #dee2e6 !important; }
+
+.border-top-0 {
+  border-top: 0 !important; }
+
+.border-right-0 {
+  border-right: 0 !important; }
+
+.border-bottom-0 {
+  border-bottom: 0 !important; }
+
+.border-left-0 {
+  border-left: 0 !important; }
+
+.border-x {
+  border-left: 1px solid #dee2e6 !important;
+  border-right: 1px solid #dee2e6 !important; }
+
+.border-y {
+  border-top: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #dee2e6 !important; }
+
+@media (min-width: 576px) {
+  .border-sm-top {
+    border-top: 1px solid #dee2e6 !important; }
+
+  .border-sm-right {
+    border-right: 1px solid #dee2e6 !important; }
+
+  .border-sm-bottom {
+    border-bottom: 1px solid #dee2e6 !important; }
+
+  .border-sm-left {
+    border-left: 1px solid #dee2e6 !important; }
+
+  .border-sm-top-0 {
+    border-top: 0 !important; }
+
+  .border-sm-right-0 {
+    border-right: 0 !important; }
+
+  .border-sm-bottom-0 {
+    border-bottom: 0 !important; }
+
+  .border-sm-left-0 {
+    border-left: 0 !important; }
+
+  .border-sm-x {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important; }
+
+  .border-sm-y {
+    border-top: 1px solid #dee2e6 !important;
+    border-bottom: 1px solid #dee2e6 !important; } }
+@media (min-width: 768px) {
+  .border-md-top {
+    border-top: 1px solid #dee2e6 !important; }
+
+  .border-md-right {
+    border-right: 1px solid #dee2e6 !important; }
+
+  .border-md-bottom {
+    border-bottom: 1px solid #dee2e6 !important; }
+
+  .border-md-left {
+    border-left: 1px solid #dee2e6 !important; }
+
+  .border-md-top-0 {
+    border-top: 0 !important; }
+
+  .border-md-right-0 {
+    border-right: 0 !important; }
+
+  .border-md-bottom-0 {
+    border-bottom: 0 !important; }
+
+  .border-md-left-0 {
+    border-left: 0 !important; }
+
+  .border-md-x {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important; }
+
+  .border-md-y {
+    border-top: 1px solid #dee2e6 !important;
+    border-bottom: 1px solid #dee2e6 !important; } }
+@media (min-width: 992px) {
+  .border-lg-top {
+    border-top: 1px solid #dee2e6 !important; }
+
+  .border-lg-right {
+    border-right: 1px solid #dee2e6 !important; }
+
+  .border-lg-bottom {
+    border-bottom: 1px solid #dee2e6 !important; }
+
+  .border-lg-left {
+    border-left: 1px solid #dee2e6 !important; }
+
+  .border-lg-top-0 {
+    border-top: 0 !important; }
+
+  .border-lg-right-0 {
+    border-right: 0 !important; }
+
+  .border-lg-bottom-0 {
+    border-bottom: 0 !important; }
+
+  .border-lg-left-0 {
+    border-left: 0 !important; }
+
+  .border-lg-x {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important; }
+
+  .border-lg-y {
+    border-top: 1px solid #dee2e6 !important;
+    border-bottom: 1px solid #dee2e6 !important; } }
+@media (min-width: 1200px) {
+  .border-xl-top {
+    border-top: 1px solid #dee2e6 !important; }
+
+  .border-xl-right {
+    border-right: 1px solid #dee2e6 !important; }
+
+  .border-xl-bottom {
+    border-bottom: 1px solid #dee2e6 !important; }
+
+  .border-xl-left {
+    border-left: 1px solid #dee2e6 !important; }
+
+  .border-xl-top-0 {
+    border-top: 0 !important; }
+
+  .border-xl-right-0 {
+    border-right: 0 !important; }
+
+  .border-xl-bottom-0 {
+    border-bottom: 0 !important; }
+
+  .border-xl-left-0 {
+    border-left: 0 !important; }
+
+  .border-xl-x {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important; }
+
+  .border-xl-y {
+    border-top: 1px solid #dee2e6 !important;
+    border-bottom: 1px solid #dee2e6 !important; } }
+/*
 =========================================================================
                                     General classes
 =========================================================================
@@ -7763,8 +7928,6 @@ a.no_deco {
   height: 1.35rem; }
 
 #white_part {
-  border-left: #f4f5f6 1px solid;
-  border-right: #f4f5f6 1px solid;
   box-shadow: 0.5rem 0 1rem rgba(145, 145, 145, 0.3); }
 
 #white_part a {
@@ -7786,9 +7949,6 @@ a.no_deco {
 .navbar-nav li {
   height: 1.32rem; }
 
-.navbar-nav li:last-child {
-  border-right: none; }
-
 .navbar-nav li.right_icon {
   line-height: 0.5rem; }
 
@@ -7805,18 +7965,22 @@ a.no_deco {
   .stick {
     position: -webkit-sticky;
     position: sticky;
-    top: -129rem; }
+    top: -128rem; }
 
   .stick_right {
     position: -webkit-sticky;
     position: sticky;
-    top: -142rem; } }
+    top: -142rem; }
+
+  .blue_article {
+    max-width: 21rem; } }
 @media screen and (min-width: 992px) {
   .red_part {
     height: 5.9375rem; }
 
   .navbar,
-  .main {
+  .main,
+  .bottom_section {
     max-width: 82rem; }
 
   .stick {
@@ -7832,14 +7996,11 @@ a.no_deco {
 
   .navbar-nav li {
     width: auto;
-    border-right: #d3d3d3 1px solid;
     flex-grow: 1; }
 
   #white_part {
     border-bottom: #f4f5f6 2px solid;
     width: 100%;
-    border-right: none;
-    border-left: none;
     box-shadow: none; }
 
   #white_part a:hover {
@@ -7907,5 +8068,46 @@ a.no_deco {
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.5rem; } }
+/*
+=========================================================================
+                                    Main Section
+=========================================================================
+*/
+.icon_logo {
+  height: 1.8rem;
+  width: 1.8rem;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210; }
+
+.section_title {
+  line-height: 1.8rem;
+  font-size: 1.15rem; }
+
+.bottom_section .section .card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4rem; }
+
+.bottom_section .section button .card-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.3rem; }
+
+.stretch {
+  flex: 1; }
+
+.item img {
+  width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .item {
+    height: 60%; }
+    .item img {
+      object-fit: cover;
+      max-width: 100%; }
+
+  .bottom_section .section .card-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.4rem; } }
 
 /*# sourceMappingURL=main.css.map */
