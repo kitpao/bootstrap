@@ -8100,16 +8100,17 @@ a.no_deco {
 
 @media screen and (min-width: 768px) {
   .item {
+    min-height: 12rem;
     height: 63%; }
     .item img {
-      object-fit: cover;
-      max-width: 100%; }
+      object-fit: cover; }
 
   .bottom_section .section .card-title {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     line-height: 1.3rem; } }
 @media screen and (min-width: 992px) {
   .item {
+    min-height: 15.8rem;
     height: 70%; } }
 
 /*# sourceMappingURL=main.css.map */
