@@ -8082,7 +8082,7 @@ a.no_deco {
   line-height: 1.8rem;
   font-size: 1.15rem; }
 
-.bottom_section .stretch .card-title {
+.bottom_section .magazine .card-title {
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.4rem; }
@@ -8098,6 +8098,15 @@ a.no_deco {
 .item img {
   width: 100%; }
 
+.slides {
+  height: 3.2rem;
+  width: 4.1rem;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  font-size: 1.25rem; }
+
+.last_section_title {
+  font-size: 1.4rem; }
+
 @media screen and (min-width: 768px) {
   .item {
     min-height: 12rem;
@@ -8105,7 +8114,7 @@ a.no_deco {
     .item img {
       object-fit: cover; }
 
-  .bottom_section .stretch .card-title {
+  .bottom_section .magazine .card-title {
     font-size: 1.25rem;
     line-height: 1.3rem; } }
 @media screen and (min-width: 992px) {
