@@ -4,7 +4,7 @@ Bootstrap-based clone page
 
 Objective: Analize and make a clone of Newsweek page, using Bootstrap framework as a base and enssure the responsive behavior.
 
-Project preview: **DONT FORGET**
+Project preview: https://raw.githack.com/kitpao/bootstrap/master/index.html
 
 The original page: https://www.newsweek.com/
 
