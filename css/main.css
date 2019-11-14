@@ -8189,6 +8189,9 @@ a.no_deco {
   font-weight: 300;
   color: #666; }
 
+a .footer_text:hover {
+  color: #000; }
+
 .fab {
   color: #666;
   font-weight: 400;
@@ -8219,6 +8222,18 @@ a.no_deco {
 
 .fa-linkedin-in:hover {
   color: #0e76a8; }
+
+.links-container {
+  flex-basis: 60%; }
+
+.editions {
+  flex-basis: 33%; }
+
+.links > * {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: auto;
+  border: #fff 1px solid; }
 
 @media screen and (min-width: 992px) {
   .last_logo_container {
