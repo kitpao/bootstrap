@@ -7863,6 +7863,8 @@ a.text-muted:hover, a.text-muted:focus {
 =========================================================================
                                     General classes
 =========================================================================
+
+Note: bootstrap original classes are separated with "-" while my own classes are separated with "_" for differentiation
 */
 body, .jumbotron-fluid {
   background-color: #f4f5f6; }
@@ -7877,11 +7879,7 @@ body, .jumbotron-fluid {
 .debug {
   border: blue 1px solid; }
 
-.image_link {
-  position: relative; }
-
 .overlay {
-  position: absolute;
   bottom: 0; }
 
 .bg_transparent {
@@ -7980,7 +7978,8 @@ a.no_deco {
 
   .navbar,
   .main,
-  .bottom_section {
+  .bottom_section,
+  .subscribe {
     max-width: 82rem; }
 
   .stick {
@@ -8121,5 +8120,55 @@ a.no_deco {
   .item {
     min-height: 15.8rem;
     height: 70%; } }
+/*
+=========================================================================
+                                    Main Section
+=========================================================================
+*/
+.subscribe {
+  border-bottom: #f4f5f6 2px solid; }
+
+.subscribe_text {
+  font-weight: 600;
+  font-size: 1.3rem; }
+
+.subscribe_subtext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.92rem;
+  line-height: 1.1rem; }
+
+.magazine_images {
+  width: 252px;
+  height: 240px;
+  flex-grow: 0;
+  flex-shrink: 0; }
+
+.over_magazine {
+  bottom: 0;
+  right: 0; }
+
+.bg_newsletter {
+  height: 165px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat center center/cover; }
+
+@media screen and (min-width: 768px) {
+  .subscribe_text {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5rem; }
+
+  .subscribe_subtext {
+    font-size: 0.95rem;
+    line-height: 1.2rem; }
+
+  .bg_newsletter {
+    height: 100%;
+    width: 225px; } }
+@media screen and (min-width: 992px) {
+  .bg_newsletter {
+    height: 100%;
+    width: 650px; } }
 
 /*# sourceMappingURL=main.css.map */
