@@ -22,7 +22,7 @@ MUST: use of linterns, follow CSS best practices, use of CSS Reset, use W3c vali
 ## Contact
 <p align="center">
 
-  Project Link: [https://github.com/kitpao/Responsive-Design](https://github.com/kitpao/Responsive-Design)
+  Project Link: [https://github.com/kitpao/bootstrap](https://github.com/kitpao/bootstrap)
 
 <p align="center">
 
